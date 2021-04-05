@@ -1,0 +1,10 @@
+<suite name="Test-class Suite" parallel="classes" thread-count="2" >
+  <parameter name="driverPath" value="C:\\Users\\pete_\\chromedriver\\win\\chromedriver.exe" />
+  <parameter name="defaultBaseURL" value="https://www.bbc.co.uk/news" />
+  <test name="Test-class test" >
+    <classes>
+      <class name="com.investigatingsoftware.app.SuggestionsScreenFurnitureTests" />
+      <class name="com.investigatingsoftware.app.SectionHeaderTests" />
+    </classes>
+  </test>
+</suite>
